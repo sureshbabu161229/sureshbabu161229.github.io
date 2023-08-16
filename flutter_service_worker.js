@@ -3,10 +3,11 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "3e334f8e204cbf67e673e1fd3fb318a3",
+  "assets/AssetManifest.json": "8da26028d6f1f7710180f792c3140ab1",
 "assets/assets/Down1.png": "963ea1c78ff0a492679c1a9b91fb0681",
 "assets/assets/dp.png": "bc62c0e3d59f36f269315ae081d0d7ad",
 "assets/assets/my_profile.png": "28d528fe6e65f1b7dd54132878d1f100",
+"assets/assets/my_profile3.jpg": "a4a308a069081a036eb1a25a53c9aa98",
 "assets/assets/profile.jpg": "cf2dd3d4390773c2648a482ddcf3fc91",
 "assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
 "assets/fonts/MaterialIcons-Regular.otf": "95db9098c58fd6db106f1116bae85a0b",
@@ -34,19 +35,14 @@ const RESOURCES = {
 "assets/packages/sign_button/images/twitter.png": "08ed456da7c064a42ed528098c78dfc0",
 "assets/packages/sign_button/images/yahoo.png": "8d028327c009ae90e08ebfd965176f8b",
 "assets/packages/sign_button/images/youtube.png": "615f39ecf21272fec7eceb7984ed8959",
-"canvaskit/canvaskit.js": "c2b4e5f3d7a3d82aed024e7249a78487",
-"canvaskit/canvaskit.wasm": "4b83d89d9fecbea8ca46f2f760c5a9ba",
-"canvaskit/profiling/canvaskit.js": "ae2949af4efc61d28a4a80fffa1db900",
-"canvaskit/profiling/canvaskit.wasm": "95e736ab31147d1b2c7b25f11d4c32cd",
 "favicon.ico": "d69f5cefec304b113251fc958c8b1701",
-"flutter.js": "0816e65a103ba8ba51b174eeeeb2cb67",
 "icons/Icon-192.png": "8e63509d920c25b28d8e44b164968102",
 "icons/Icon-512.png": "11aa5aa3d51ecb2c0a1676e2072b482a",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
-"index.html": "d13df712b5df4e74d03c5d2d90c2c42c",
-"/": "d13df712b5df4e74d03c5d2d90c2c42c",
-"main.dart.js": "f0c25500e9a0cccc887cdda3cc30a2ad",
+"index.html": "4f6faee0e9000cfc0a56f52e4df70ce3",
+"/": "4f6faee0e9000cfc0a56f52e4df70ce3",
+"main.dart.js": "52509cc140c22c00e023bf0d735f61a3",
 "manifest.json": "409c0e4cd08e9c3e49ba00136764ca15",
 "version.json": "839ba207549d7d1cc40882dba08f0ec5"
 };
