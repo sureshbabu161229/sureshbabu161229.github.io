@@ -63184,9 +63184,9 @@ A.uB.prototype={
 ab(){return new A.KJ(B.l)}}
 A.KJ.prototype={
 I(a){var s=this,r=null,q="Munigeti",p="Suresh Babu",o=u.L,n=t.w,m=a.K(n).f.a,l=t.p,k=m.a,j=m.b,i=k*0.1,h=j*0.03,g=j*0.04,f=j*0.095
-return a.K(n).f.a.a<700?A.bu(r,A.dJ(A.a([A.bu(r,A.dJ(A.a([new A.dI("WELCOME TO MY PORTFOLIO",A.jf(B.f,h,B.bT,r),r),A.eF(r,g,r),A.ahN(new A.dI(q,A.jf(B.f,f,B.b7,2),r)),new A.dI(p,A.jf(B.f,f,B.T,2),r),B.E,s.Gi(),B.E,s.J3()],l),B.aR,B.M,B.v),B.k,r,r,r,r,r,new A.aE(i,j*0.05,i,0),r,r,r,r),B.E,B.E,A.bu(r,A.aiB(A.aed(o,B.bS),0.9),B.k,r,r,r,r,r,r,r,r,r,r)],l),B.B,B.M,B.v),B.k,r,r,r,r,j,r,r,r,r,k):A.bu(r,A.dD(A.a([A.hU(A.bu(r,A.dJ(A.a([new A.dI("WELCOME TO MY PORTFOLIO! ",A.jf(B.f,h,B.bT,r),r),A.eF(r,g,r),new A.dI(q,A.jf(B.f,f,B.b7,4),r),new A.dI(p,A.jf(B.f,f,B.T,5),r),s.Gi(),B.Is,s.J3()],l),B.aR,B.M,B.v),B.k,r,r,r,r,r,new A.aE(i,j*0.2,i,0),r,r,r,r),2),A.hU(A.bu(B.w4,A.aiB(A.aed(o,B.bS),0.9),B.k,r,r,r,r,r,r,r,r,r,r),1)],l),B.B,B.M,B.v),B.k,r,r,r,r,j,r,r,r,r,k)},
+return a.K(n).f.a.a<700?A.bu(r,A.dJ(A.a([A.bu(r,A.dJ(A.a([new A.dI("WELCOME TO MY PORTFOLIO",A.jf(B.f,h,B.bT,r),r),A.eF(r,g,r),A.ahN(new A.dI(q,A.jf(B.f,f,B.b7,2),r)),new A.dI(p,A.jf(B.f,f,B.T,2),r),B.E,s.Gi(),B.E,A.ahN(s.J3())],l),B.aR,B.M,B.v),B.k,r,r,r,r,r,new A.aE(i,j*0.05,i,0),r,r,r,r),B.E,B.E,A.bu(r,A.aiB(A.aed(o,B.bS),0.9),B.k,r,r,r,r,r,r,r,r,r,r)],l),B.B,B.M,B.v),B.k,r,r,r,r,j,r,r,r,r,k):A.bu(r,A.dD(A.a([A.hU(A.bu(r,A.dJ(A.a([new A.dI("WELCOME TO MY PORTFOLIO! ",A.jf(B.f,h,B.bT,r),r),A.eF(r,g,r),new A.dI(q,A.jf(B.f,f,B.b7,4),r),new A.dI(p,A.jf(B.f,f,B.T,5),r),s.Gi(),B.Is,s.J3()],l),B.aR,B.M,B.v),B.k,r,r,r,r,r,new A.aE(i,j*0.2,i,0),r,r,r,r),2),A.hU(A.bu(B.w4,A.aiB(A.aed(o,B.bS),0.9),B.k,r,r,r,r,r,r,r,r,r,r),1)],l),B.B,B.M,B.v),B.k,r,r,r,r,j,r,r,r,r,k)},
 J3(){var s=this.c.K(t.w).f.a.a<700?B.ck:B.l9
-return A.ahN(A.dD(A.a([A.a2l(s,B.wK,new A.a8e()),A.a2l(B.ck,B.wL,new A.a8f()),A.a2l(B.ck,B.wM,new A.a8g()),A.a2l(B.ck,B.wN,new A.a8h())],t.p),B.B,B.M,B.v))},
+return A.dD(A.a([A.a2l(s,B.wK,new A.a8e()),A.a2l(B.ck,B.wL,new A.a8f()),A.a2l(B.ck,B.wM,new A.a8g()),A.a2l(B.ck,B.wN,new A.a8h())],t.p),B.B,B.M,B.v)},
 Gi(){var s=null,r=A.jf(B.f,this.c.K(t.w).f.a.b*0.03,B.cy,s)
 return A.dD(A.a([B.C4,new A.Iq(A.atU(A.a([" Software Developer"," Flutter Developer"," UI/UX Designer"," Web Developer"],t.s),B.au,r,B.fv,B.a4),B.bQ,!1,!1,s,s,s,s,!0,!0,3,s)],t.p),B.B,B.M,B.v)}}
 A.a8e.prototype={
