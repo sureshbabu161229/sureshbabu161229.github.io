@@ -3,48 +3,54 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "8da26028d6f1f7710180f792c3140ab1",
+  "assets/assets/my_profile.png": "28d528fe6e65f1b7dd54132878d1f100",
 "assets/assets/Down1.png": "963ea1c78ff0a492679c1a9b91fb0681",
 "assets/assets/dp.png": "bc62c0e3d59f36f269315ae081d0d7ad",
-"assets/assets/my_profile.png": "28d528fe6e65f1b7dd54132878d1f100",
 "assets/assets/my_profile3.jpg": "a4a308a069081a036eb1a25a53c9aa98",
-"assets/assets/profile.jpg": "cf2dd3d4390773c2648a482ddcf3fc91",
-"assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
+"assets/shaders/ink_sparkle.frag": "d722cea90694d5682671a8cbf60c6682",
 "assets/fonts/MaterialIcons-Regular.otf": "95db9098c58fd6db106f1116bae85a0b",
-"assets/NOTICES": "09acd17092e7cd9eeb7098a377ba54da",
-"assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
-"assets/packages/sign_button/images/amazon.png": "af00fbd77763d45afd0131b85e5f78a5",
-"assets/packages/sign_button/images/apple.png": "c82fbe8cbcecaa462da7bd30015b3565",
+"assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
 "assets/packages/sign_button/images/appleDark.png": "11238aa9e757b14b5e3460b467e6a2b4",
-"assets/packages/sign_button/images/discord.png": "58b6fbbd693837c7782e3efae4619c17",
-"assets/packages/sign_button/images/discordCircle.png": "eef106bd4d8b58cf3ef1d257fa53b93e",
-"assets/packages/sign_button/images/facebook.png": "f4dfe9871ac8cce8278c2aba8c897e1d",
-"assets/packages/sign_button/images/facebookDark.png": "deface349f4fd6bece4039901e8c6c44",
-"assets/packages/sign_button/images/github.png": "c67686f615f334806a07d41d594c34c1",
-"assets/packages/sign_button/images/githubDark.png": "561b115749533c422a8c02e4843c73d2",
-"assets/packages/sign_button/images/google.png": "46039fa62c3167028c4fdb86816c3363",
-"assets/packages/sign_button/images/googleDark.png": "3a7df7781108618c2b3d05a5121abdfc",
-"assets/packages/sign_button/images/instagram.png": "6c356b0bd4b0f7f80046fc2557e85757",
-"assets/packages/sign_button/images/linkedin.png": "e4ae6d8c444c75a24d02cd9995072297",
-"assets/packages/sign_button/images/mail.png": "c9172bdda51109489593c86da58f10e8",
-"assets/packages/sign_button/images/microsoft.png": "dfb60902957a3204c63d4d3de2ae76ff",
-"assets/packages/sign_button/images/pinterest.png": "4e9b78531f5968aad62a1ec26eb75b18",
-"assets/packages/sign_button/images/quora.png": "b10aaad4707aad91cbab341ef33ea56c",
-"assets/packages/sign_button/images/reddit.png": "1b200a970d87b9ab578ac556b24cf16b",
-"assets/packages/sign_button/images/tumblr.png": "695506da08f97651af960af9f268dcc4",
-"assets/packages/sign_button/images/twitter.png": "08ed456da7c064a42ed528098c78dfc0",
 "assets/packages/sign_button/images/yahoo.png": "8d028327c009ae90e08ebfd965176f8b",
+"assets/packages/sign_button/images/quora.png": "b10aaad4707aad91cbab341ef33ea56c",
+"assets/packages/sign_button/images/github.png": "c67686f615f334806a07d41d594c34c1",
 "assets/packages/sign_button/images/youtube.png": "615f39ecf21272fec7eceb7984ed8959",
+"assets/packages/sign_button/images/amazon.png": "af00fbd77763d45afd0131b85e5f78a5",
+"assets/packages/sign_button/images/twitterX.png": "6fe57f119159e49f33816e9989b8bc87",
+"assets/packages/sign_button/images/instagram.png": "6c356b0bd4b0f7f80046fc2557e85757",
+"assets/packages/sign_button/images/facebookDark.png": "deface349f4fd6bece4039901e8c6c44",
+"assets/packages/sign_button/images/reddit.png": "1b200a970d87b9ab578ac556b24cf16b",
+"assets/packages/sign_button/images/mail.png": "c9172bdda51109489593c86da58f10e8",
+"assets/packages/sign_button/images/google.png": "46039fa62c3167028c4fdb86816c3363",
+"assets/packages/sign_button/images/discordCircle.png": "eef106bd4d8b58cf3ef1d257fa53b93e",
+"assets/packages/sign_button/images/linkedin.png": "e4ae6d8c444c75a24d02cd9995072297",
+"assets/packages/sign_button/images/tumblr.png": "695506da08f97651af960af9f268dcc4",
+"assets/packages/sign_button/images/facebook.png": "f4dfe9871ac8cce8278c2aba8c897e1d",
+"assets/packages/sign_button/images/discord.png": "58b6fbbd693837c7782e3efae4619c17",
+"assets/packages/sign_button/images/twitter.png": "08ed456da7c064a42ed528098c78dfc0",
+"assets/packages/sign_button/images/pinterest.png": "4e9b78531f5968aad62a1ec26eb75b18",
+"assets/packages/sign_button/images/googleDark.png": "3a7df7781108618c2b3d05a5121abdfc",
+"assets/packages/sign_button/images/apple.png": "c82fbe8cbcecaa462da7bd30015b3565",
+"assets/packages/sign_button/images/microsoft.png": "dfb60902957a3204c63d4d3de2ae76ff",
+"assets/packages/sign_button/images/githubDark.png": "561b115749533c422a8c02e4843c73d2",
+"assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
+"assets/NOTICES": "7842a194c97adf53a1663149b5231eae",
+"assets/AssetManifest.json": "dc3df02afd1e4ac8f99bc84e9d38867a",
+"index.html": "a21b26192b1a6f6a838b29547a6512e6",
+"/": "a21b26192b1a6f6a838b29547a6512e6",
+"version.json": "839ba207549d7d1cc40882dba08f0ec5",
 "favicon.ico": "d69f5cefec304b113251fc958c8b1701",
-"icons/Icon-192.png": "8e63509d920c25b28d8e44b164968102",
-"icons/Icon-512.png": "11aa5aa3d51ecb2c0a1676e2072b482a",
+"flutter.js": "f85e6fb278b0fd20c349186fb46ae36d",
+"canvaskit/profiling/canvaskit.js": "38164e5a72bdad0faa4ce740c9b8e564",
+"canvaskit/profiling/canvaskit.wasm": "95a45378b69e77af5ed2bc72b2209b94",
+"canvaskit/canvaskit.js": "2bc454a691c631b07a9307ac4ca47797",
+"canvaskit/canvaskit.wasm": "bf50631470eb967688cca13ee181af62",
+"main.dart.js": "390dbe00ae12e7708d2f0374b85f83e5",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
+"icons/Icon-192.png": "8e63509d920c25b28d8e44b164968102",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
-"index.html": "4f6faee0e9000cfc0a56f52e4df70ce3",
-"/": "4f6faee0e9000cfc0a56f52e4df70ce3",
-"main.dart.js": "52509cc140c22c00e023bf0d735f61a3",
-"manifest.json": "409c0e4cd08e9c3e49ba00136764ca15",
-"version.json": "839ba207549d7d1cc40882dba08f0ec5"
+"icons/Icon-512.png": "11aa5aa3d51ecb2c0a1676e2072b482a",
+"manifest.json": "4695a28bae74c6bb064726dc7b311cd7"
 };
 
 // The application shell files that are downloaded before a service worker can
@@ -52,7 +58,6 @@ const RESOURCES = {
 const CORE = [
   "main.dart.js",
 "index.html",
-"assets/NOTICES",
 "assets/AssetManifest.json",
 "assets/FontManifest.json"];
 // During install, the TEMP cache is populated with the application shell files.
@@ -151,9 +156,11 @@ self.addEventListener("fetch", (event) => {
     .then((cache) =>  {
       return cache.match(event.request).then((response) => {
         // Either respond with the cached resource, or perform a fetch and
-        // lazily populate the cache.
+        // lazily populate the cache only if the resource was successfully fetched.
         return response || fetch(event.request).then((response) => {
-          cache.put(event.request, response.clone());
+          if (response && Boolean(response.ok)) {
+            cache.put(event.request, response.clone());
+          }
           return response;
         });
       })
