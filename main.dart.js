@@ -61318,7 +61318,7 @@ A.M0.prototype={
 az(){this.aY()
 var s=this.w
 s.push(new A.iS("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJZnlZN7R9IwltrGUE6CozAIn9lgnHjWEjZw&usqp=CAU","MobileApp - Development","Mobile app development via Flutter\n\n- Splash Screen\n- Firebase Auth/Cloud\n- REST APIs\n- Maps integration and more...!"))
-s.push(new A.iS("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcEeBTUcfX7TvwFxWO-UwEIPX-6Rkhdrhjvc9CKKUJn8vKDeFwceVA_eyIQ_kK0jwUtyI&usqp=CAU","UI/UX - Design","Modern UI/UX Designing\n\n- Adobe XD\n- Posters with Canva\n- Mobile & Web designs\n- Interactive UI designs\n- Responsiveness and more..!"))
+s.push(new A.iS("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcEeBTUcfX7TvwFxWO-UwEIPX-6Rkhdrhjvc9CKKUJn8vKDeFwceVA_eyIQ_kK0jwUtyI&usqp=CAU","UI/UX - Design","Modern UI/UX Designing\n\n- Adobe XD\n- Posters with Canva\n- Mobile & Web designs.\n- Responsiveness and more..!"))
 s.push(new A.iS("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMgWti3dgR5ArlnGmWUYWP_p_fizXhU61UcA&usqp=CAU","Web - Development","Web development via Flutter\n\n- Splash Screen\n- Firebase Auth/Cloud\n- REST APIs\n- Maps integration and more...!"))
 s.push(new A.iS("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQll6NmH-sEqG2YroIg18Q615aH2wfQumABSw&usqp=CAU","GitHub-Source","Open source GitHub Projects\n\n- Awesome README.md\n- Well documented\n- Header images and more...!"))},
 G(a){var s,r,q,p,o,n,m=this,l=null,k=t.w,j=a.K(k).f.a.a,i=j*0.05,h=A.bq("What I Do",$.abh(),l,l)
